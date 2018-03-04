@@ -1,13 +1,25 @@
-var time = 30;
-
-function start() {
-	intervalId = setInterval(count, 1000);
+//code runs when page is loaded
+window.onload = function() {
+	$("#timer").on("click", timer.start);
 }
- 
-function count () {
-	time--
-	$("#timer").text(time);
+//variable holds setInterval
+	var intervalId;
+//timer
+	var timer = {
+		time: 5,
+	start: function() {
+	var	intervalId = setInterval(timer.count, 1000)
+
+	},
+	
+
+	count: function() {
+		timer.time--;
+		$("#timer").text(timer.time);
+		console.log(timer.time);
+		if (timer.time === 0) {
+			cleatInterval(intervalId);
+		}
+	},
+
 }
-start()
-
-
