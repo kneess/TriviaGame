@@ -18,8 +18,15 @@ window.onload = function() {
 		$("#timer").text(timer.time);
 		console.log(timer.time);
 		if (timer.time === 0) {
+			//need to display scores here
 			cleatInterval(intervalId);
 		}
 	},
 
 }
+
+$("#arnold").click(function() {
+	var inputDetect = $(this).val();
+	inputDetect = parseInt(inputDetect);
+	console.log(inputDetect);
+})
