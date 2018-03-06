@@ -1,15 +1,42 @@
 #ronnie {
 	float: left;
 }
-#arnold {
-	float: left;
-}
+
 #rich {
-	float: left;
+	float: right;
 }
 #marilyn {
-	float: left;
+	float: right;
 }
 #swole {
 	float: left;
+}
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2JestNxr6HP9U9PYSTEKmgXyZGJbLtwgT_hWmbWHbNWk7WHBC");
+}
+h1 {
+	text-align: center;
+}
+
+.col {
+	text-align: center;
+	color: red;
+	font-size: 25px;
+	font-weight: bold;
+}
+.col-3 {
+	text-align: center;
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+.firstForm {
+	margin-left: 210px;
+	margin-top: 10px;
+}
+#arnold {
+	margin-left: 95px;
+}
+#bulk {
+	margin-left: 22px;
 }
