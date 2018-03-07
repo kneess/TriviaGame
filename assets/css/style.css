@@ -20,13 +20,13 @@ h1 {
 
 .col {
 	text-align: center;
-	color: red;
+	color: #00FFFF;
 	font-size: 25px;
 	font-weight: bold;
 }
 .col-3 {
 	text-align: center;
-	color: red;
+	color: #00FFFF;
 	font-size: 18px;
 	font-weight: bold;
 }
