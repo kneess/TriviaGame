@@ -1,34 +1,25 @@
-#ronnie {
-	float: left;
-}
 
-#rich {
-	float: right;
-}
-#marilyn {
-	float: right;
-}
-#swole {
-	float: left;
-}
 body {
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2JestNxr6HP9U9PYSTEKmgXyZGJbLtwgT_hWmbWHbNWk7WHBC");
 }
 h1 {
 	text-align: center;
 }
+.questions {
+	text-align: center;
+}
 
 .col {
-	text-align: center;
 	color: #00FFFF;
 	font-size: 25px;
 	font-weight: bold;
+	clear: both;
 }
 .col-3 {
-	text-align: center;
 	color: #00FFFF;
 	font-size: 18px;
 	font-weight: bold;
+	float: left;
 }
 .firstForm {
 	margin-left: 210px;
@@ -39,4 +30,52 @@ h1 {
 }
 #bulk {
 	margin-left: 22px;
+}
+
+#timer {
+	color: black;
+	font-size: 65px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+
+#startButton {
+	clear: both;
+	color: black;
+	font-size: 65px;
+	font-weight: bold;
+}
+
+#col2 {
+	color: #00FFFF;
+	font-size: 25px;
+	font-weight: bold;
+	clear: both;
+}
+
+#submit {
+	position: relative;
+    right: -541px;
+}
+
+#score {
+	color: #00FFFF;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#score2 {
+	float: left;
+	margin-left: 35%;
+	color: #00FFFF;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#unanswered {
+	float: left;
+	color: #00FFFF;
+	font-size: 60px;
+	font-weight: bold;
 }
