@@ -1,81 +1,44 @@
 
 body {
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2JestNxr6HP9U9PYSTEKmgXyZGJbLtwgT_hWmbWHbNWk7WHBC");
-}
-h1 {
+	background-image: url("../images/weights.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
 	text-align: center;
 }
-.questions {
+
+.container{
 	text-align: center;
+}
+
+.navbar{
+	position: fixed;
+}
+
+h1, h3{
+	color: white;
 }
 
 .col {
 	color: #00FFFF;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: bold;
 	clear: both;
+	text-align: center;
 }
-.col-3 {
-	color: #00FFFF;
-	font-size: 18px;
+.question {
+	color: white;
+	font-size: 30px;
 	font-weight: bold;
-	float: left;
-}
-.firstForm {
-	margin-left: 210px;
-	margin-top: 10px;
-}
-#arnold {
-	margin-left: 95px;
-}
-#bulk {
-	margin-left: 22px;
+	text-align: center;
 }
 
 #timer {
-	color: black;
-	font-size: 65px;
-	font-weight: bold;
-	display: flex;
-	justify-content: center;
+	color: white;
+	font-size: 40px;
 }
 
-#startButton {
-	clear: both;
-	color: black;
-	font-size: 65px;
-	font-weight: bold;
-}
-
-#col2 {
+.scores{
 	color: #00FFFF;
-	font-size: 25px;
-	font-weight: bold;
-	clear: both;
-}
-
-#submit {
-	position: relative;
-    right: -541px;
-}
-
-#score {
-	color: #00FFFF;
-	font-size: 60px;
-	font-weight: bold;
-}
-
-#score2 {
-	float: left;
-	margin-left: 35%;
-	color: #00FFFF;
-	font-size: 60px;
-	font-weight: bold;
-}
-
-#unanswered {
-	float: left;
-	color: #00FFFF;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: bold;
 }

@@ -4,12 +4,15 @@ $("document").ready(function () {
 	$("#score2").hide();
 	$("#submit").hide();
 	$("#unanswered").hide();
+	$("navbar").hide();
 
 	$("#startButton").on("click", function () {
 		$("#startButton").hide();
 		$(".questions").show();
 		$("#submit").show();
 		$(".jumbotron").hide();
+		$("navbar").show();
+		$("h3").hide();
 
 		displayQuestions();
 
