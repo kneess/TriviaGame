@@ -1,9 +1,7 @@
 $("document").ready(function () {
 	$(".questions").hide();
-	$("#score").hide();
-	$("#score2").hide();
+	$(".scoreContainer").hide();
 	$("#submit").hide();
-	$("#unanswered").hide();
 	$("navbar").hide();
 
 	$("#startButton").on("click", function () {
@@ -148,9 +146,11 @@ $("document").ready(function () {
 	function noTime() {
 		clearInterval(intervalId);
 		$(".questions").hide();
-		$("#score").show();
-		$("#score2").show();
-		$("#unanswered").show();
+		$(".scoreContainer").show();
 
 	}
+
+	$("#retry").click(function(){
+		location.reload();
+	})
 });
